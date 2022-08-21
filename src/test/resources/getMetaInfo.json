@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "max_file_size": {
+      "type": "integer"
+    },
+    "unlimited_autoupload_enabled": {
+      "type": "boolean"
+    },
+    "total_space": {
+      "type": "integer"
+    },
+    "trash_size": {
+      "type": "integer"
+    },
+    "is_paid": {
+      "type": "boolean"
+    },
+    "used_space": {
+      "type": "integer"
+    },
+    "system_folders": {
+      "type": "object",
+      "properties": {
+        "odnoklassniki": {
+          "type": "string"
+        },
+        "google": {
+          "type": "string"
+        },
+        "instagram": {
+          "type": "string"
+        },
+        "vkontakte": {
+          "type": "string"
+        },
+        "mailru": {
+          "type": "string"
+        },
+        "downloads": {
+          "type": "string"
+        },
+        "applications": {
+          "type": "string"
+        },
+        "facebook": {
+          "type": "string"
+        },
+        "social": {
+          "type": "string"
+        },
+        "screenshots": {
+          "type": "string"
+        },
+        "photostream": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "odnoklassniki",
+        "google",
+        "instagram",
+        "vkontakte",
+        "mailru",
+        "downloads",
+        "applications",
+        "facebook",
+        "social",
+        "screenshots",
+        "photostream"
+      ]
+    },
+    "user": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "login": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "uid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "country",
+        "login",
+        "display_name",
+        "uid"
+      ]
+    },
+    "revision": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "max_file_size",
+    "unlimited_autoupload_enabled",
+    "total_space",
+    "trash_size",
+    "is_paid",
+    "used_space",
+    "system_folders",
+    "user",
+    "revision"
+  ]
+}

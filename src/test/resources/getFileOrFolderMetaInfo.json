@@ -1,0 +1,908 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "_embedded": {
+      "type": "object",
+      "properties": {
+        "sort": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "type": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "name",
+                "exif",
+                "created",
+                "resource_id",
+                "modified",
+                "path",
+                "comment_ids",
+                "type",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "type": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "name",
+                "exif",
+                "created",
+                "resource_id",
+                "modified",
+                "path",
+                "comment_ids",
+                "type",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "size",
+                "comment_ids",
+                "name",
+                "exif",
+                "created",
+                "resource_id",
+                "modified",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "size",
+                "comment_ids",
+                "name",
+                "exif",
+                "created",
+                "resource_id",
+                "modified",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "public_key": {
+                  "type": "string"
+                },
+                "public_url": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "public_key",
+                "public_url",
+                "name",
+                "exif",
+                "created",
+                "size",
+                "resource_id",
+                "modified",
+                "comment_ids",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "public_key": {
+                  "type": "string"
+                },
+                "public_url": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "public_key",
+                "public_url",
+                "name",
+                "exif",
+                "created",
+                "size",
+                "resource_id",
+                "modified",
+                "comment_ids",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "size",
+                "comment_ids",
+                "name",
+                "exif",
+                "created",
+                "resource_id",
+                "modified",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "public_key": {
+                  "type": "string"
+                },
+                "public_url": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "public_key",
+                "public_url",
+                "name",
+                "exif",
+                "created",
+                "size",
+                "resource_id",
+                "modified",
+                "comment_ids",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "size",
+                "comment_ids",
+                "name",
+                "exif",
+                "created",
+                "resource_id",
+                "modified",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "antivirus_status": {
+                  "type": "string"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "comment_ids": {
+                  "type": "object",
+                  "properties": {
+                    "private_resource": {
+                      "type": "string"
+                    },
+                    "public_resource": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "private_resource",
+                    "public_resource"
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "exif": {
+                  "type": "object"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "resource_id": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "mime_type": {
+                  "type": "string"
+                },
+                "file": {
+                  "type": "string"
+                },
+                "media_type": {
+                  "type": "string"
+                },
+                "preview": {
+                  "type": "string"
+                },
+                "path": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "md5": {
+                  "type": "string"
+                },
+                "revision": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "antivirus_status",
+                "size",
+                "comment_ids",
+                "name",
+                "exif",
+                "created",
+                "resource_id",
+                "modified",
+                "mime_type",
+                "file",
+                "media_type",
+                "preview",
+                "path",
+                "sha256",
+                "type",
+                "md5",
+                "revision"
+              ]
+            }
+          ]
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "offset": {
+          "type": "integer"
+        },
+        "path": {
+          "type": "string"
+        },
+        "total": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sort",
+        "items",
+        "limit",
+        "offset",
+        "path",
+        "total"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "exif": {
+      "type": "object"
+    },
+    "resource_id": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    },
+    "modified": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "comment_ids": {
+      "type": "object"
+    },
+    "type": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "_embedded",
+    "name",
+    "exif",
+    "resource_id",
+    "created",
+    "modified",
+    "path",
+    "comment_ids",
+    "type",
+    "revision"
+  ]
+}

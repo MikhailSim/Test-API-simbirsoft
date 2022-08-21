@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <entry key="url">https://cloud-simbirsoft.com.api.yandex.net</entry>
+    <entry key="authToken">y0_AgAAAABb9oJ_AAhVYQAAAADMhFV-a78SfqElS6yuGfQhM1JxhFlPiLA</entry>
+
+</properties>
